@@ -1,7 +1,7 @@
 import os
 from bot import data, download_dir
 from pyrogram.types import Message
-#from .ffmpeg_utils import encode, get_thumbnail, get_duration, get_width_height
+# from .ffmpeg_utils import encode, get_thumbnail, get_duration, get_width_height
 
 def on_task_complete():
     del data[0]

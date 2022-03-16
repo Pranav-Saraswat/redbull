@@ -23,7 +23,4 @@ def encode_video(app, message):
 def sudo(app, message):
     message.reply_text(f"•••••HELP••••• \n Ω Send any file to check it \n Ω Toggle coming soon\n Ω Current checker" + cc)
 
-
-
-
 app.run()

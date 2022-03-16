@@ -1,6 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import os,socket,threading,base64,datetime,sys,ssl,imaplib,time,re,uuid
+import (
+	os, 
+	socket,
+	threading,
+	base64,
+	datetime,
+	sys,
+	ssl,
+	imaplib,
+	time,
+	re,
+	uuid,
+)	
 #bot = telegram.Bot(token="1451863899:AAEcQAnZxYJoUmD7lpKP_9bSuD-679iC45I")
 #dekh = client("H3R0", bot_token="1451863899:AAEcQAnZxYJoUmD7lpKP_9bSuD-679iC45I", api_id=int("6788381"), api_hash="935a5a3842d9a3b20115f9dba872e6ec")# line 282
 os.system('clear')
@@ -348,7 +360,7 @@ tlds=cache={}
 bads=[]
 cracked=[]
 rbads=0
-print('''\n        SMTP CRACKER HU VRO...''')
+print('''\nSMTP CRACKER HU VRO...''')
 try:
   inputs=open((raw_input('Combo Name')),'r').read().splitlines()
 except:
@@ -366,7 +378,7 @@ for i in range(int(thret)):
         t.setDaemon(True)
         t.start()
     except:
-		print "[×] ERROR Reducing threads [×]" 
+		print"[×] ERROR Reducing threads [×]" 
 		break
 try:
     for i in inputs:

